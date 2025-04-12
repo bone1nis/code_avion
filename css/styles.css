@@ -234,3 +234,59 @@ button {
     height: 600px;
     object-fit: cover;
 }
+
+/* Footer */
+
+.footer {
+    background: var(--dark-primary);
+}
+
+.footer__inner {}
+
+.footer__nav {}
+
+.footer__nav-section {}
+
+.footer__title {
+    font-weight: 700;
+    color: var(--white);
+}
+
+.footer__nav-list {}
+
+.footer__nav-link {
+    font-size: 16px;
+    color: var(--white);
+}
+
+.footer__subscribe {}
+
+.subscribe {}
+
+.subscribe__form {}
+
+.subscribe__input {
+    padding: 16px 32px;
+    width: 500px;
+    height: 60px;
+    background: rgba(255, 255, 255, 0.15);
+    color: var(--white);
+}
+
+.subscribe__btn {}
+
+.footer__divider {}
+
+.footer__copyright {}
+
+.footer__copyright-title {
+    color: var(--white);
+}
+
+.footer__social {}
+
+.social {}
+
+.social__item {}
+
+.social__link {}
