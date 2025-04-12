@@ -48,14 +48,20 @@ button {
     height: 60px;
 }
 
-.btn-primary {
+.btn--primary {
     background: var(--light-grey);
 }
 
-.btn-secondary {
+.btn--secondary {
     background: rgba(249, 249, 249, 0.15);
     color: #fff;
 }
+
+.btn--white {
+    background: var(--white);
+}
+
+.btn__
 
 .header {}
 
