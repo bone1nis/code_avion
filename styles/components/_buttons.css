@@ -1,0 +1,21 @@
+.btn {
+    padding: 16px 32px;
+    transition: opacity 0.3s ease;
+}
+
+.btn:hover {
+    opacity: 0.5;
+}
+
+.btn--primary {
+    background: var(--light-grey);
+}
+
+.btn--secondary {
+    background: rgba(249, 249, 249, 0.15);
+    color: #fff;
+}
+
+.btn--white {
+    background: var(--white);
+}
