@@ -156,6 +156,7 @@
 .about {
     overflow: hidden;
     position: relative;
+    height: 600px;
 }
 
 .about__inner {
@@ -312,6 +313,10 @@
         margin: 0 48px;
     }
 
+    .about {
+        height: auto;
+    }
+
     .about__inner {
         flex-direction: column;
         align-items: center;
@@ -426,6 +431,10 @@
         grid-template-columns: repeat(2, 1fr);
     }
 
+    .products__item:nth-child(odd) {
+        order: 1;
+    }
+
     .products__image {
         height: 210px;
     }
@@ -467,6 +476,10 @@
 
     .footer__social {
         display: none
+    }
+
+    .footer__nav-section_main {
+        order: 1;
     }
 }
 
