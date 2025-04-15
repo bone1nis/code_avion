@@ -1,0 +1,20 @@
+.subscribe__form {
+    display: flex;
+}
+
+.subscribe__input {
+    padding: 16px 30px;
+}
+
+.subscribe__input_rgb {
+    background: rgba(255, 255, 255, 0.15);
+    color: var(--white);
+}
+
+.subscribe__input_rgb::placeholder {
+    color: var(--white)
+}
+
+.subscribe__input_dark {
+    background: var(--light-grey);
+}

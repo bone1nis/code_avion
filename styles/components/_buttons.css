@@ -19,3 +19,8 @@
 .btn--white {
     background: var(--white);
 }
+
+.btn--dark {
+    background: var(--dark-primary);
+    color: var(--white);
+}

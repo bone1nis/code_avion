@@ -9,6 +9,7 @@
 body {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 p,
@@ -43,6 +44,7 @@ button {
     color: var(--dark-primary);
     border: none;
     font-size: 20px;
+    white-space: nowrap;
 }
 
 ul {

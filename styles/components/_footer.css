@@ -1,0 +1,147 @@
+.footer {
+    background: var(--dark-primary);
+}
+
+.footer__inner {
+    padding: 58px 0;
+}
+
+.footer__main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+.footer__nav-section {
+    width: 127px;
+}
+
+.footer__title_nav {
+    margin-bottom: 12px;
+}
+
+.footer__title {
+    font-weight: 700;
+    color: var(--white);
+}
+
+.footer__nav-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.footer__nav-link {
+    font-size: 16px;
+    color: var(--white);
+}
+
+.footer__nav-item {
+    display: flex;
+    align-items: center;
+}
+
+.footer__title_subscribe {
+    margin-bottom: 8px;
+}
+
+.footer__subscribe-input {
+    width: 496px;
+}
+
+.footer__subscribe-btn {
+    width: 131px;
+}
+
+.footer__divider {
+    margin-top: 56px;
+    margin-bottom: 24px;
+    border: 1px solid var(--primary);
+}
+
+.footer__meta {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__copyright-title {
+    color: var(--white);
+}
+
+.social {
+    display: flex;
+    gap: 24px;
+}
+
+.social__link {
+    transition: none;
+}
+
+.social__link:hover {
+    opacity: 1;
+}
+
+.social__link-icon path {
+    transition: all 0.3s ease;
+}
+
+.social__link:hover .social__link-icon path {
+    fill: #b3b3b3;
+}
+
+@media (max-width: 1280px) {
+    .footer__main {
+        align-items: center;
+        flex-direction: column;
+        gap: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer__title {
+        font-size: 20px;
+    }
+
+    .footer__divider {
+        margin-top: 12px;
+        margin-bottom: 20px;
+    }
+
+    .footer__meta {
+        justify-content: center;
+    }
+
+    .footer__social {
+        display: none
+    }
+
+    .footer__nav-section_main {
+        order: 1;
+    }
+
+    .footer__copyright-title {
+        font-size: 16px;
+    }
+
+    .footer__subscribe-input {
+        width: 210px;
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 481px) {
+    .footer__nav {
+        justify-content: space-between;
+        gap: 40px;
+    }
+
+    .footer__inner {
+        padding: 40px 0 17px 0;
+    }
+}
