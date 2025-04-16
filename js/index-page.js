@@ -6,6 +6,6 @@ const hiddenItems = document.querySelectorAll('.products__item.hidden');
 if (viewMoreBtn && hiddenItems.length > 0) {
     viewMoreBtn.addEventListener('click', () => {
         hiddenItems.forEach(item => item.classList.remove('hidden'));
-        viewMoreBtn.style.display = 'none';
+        viewMoreBtn.classList.add("hidden");
     });
 }
